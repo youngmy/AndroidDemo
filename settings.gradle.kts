@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidDemo"
 include(":app")
- 
+include(":commonlibrary")
