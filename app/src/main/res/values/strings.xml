@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AndroidDemo</string>
+    <string name="test_content">test</string>
+
+    <string name="btn_msg">btn_msg</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="home">首页</string>
+    <string name="category">分类</string>
+    <string name="collection">收藏</string>
+    <string name="profile">我的</string>
 </resources>

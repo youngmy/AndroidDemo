@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    <color name="iconGrey">#9ea1b0</color>-->
+<!--    <color name="icon">#FF333333</color>-->
+<!--    <color name="logo">#9ea1b0</color>-->
+
+
+<!--    &lt;!&ndash; 图标着色 &ndash;&gt;-->
+<!--    <color name="app_iconPrimary">@color/icon</color>-->
+<!--    <color name="app_tintIconGrey">@color/iconGrey</color>-->
+
+</resources>

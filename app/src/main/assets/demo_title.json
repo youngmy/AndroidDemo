@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "title": "自定义 好看的TabRow Indicator",
+    "event": "tab_row_indicator",
+    "url": "",
+    "param": ""
+  },
+  {
+    "id": 1,
+    "title": "多语言切换",
+    "event": "multi_language",
+    "url": "",
+    "param": ""
+  },
+  {
+    "id": 2,
+    "title": "Material 常用组件",
+    "event": "material_widget",
+    "url": "",
+    "param": ""
+  },
+  {
+    "id": 3,
+    "title": "赵六",
+    "event": "",
+    "url": "",
+    "param": ""
+  }
+]

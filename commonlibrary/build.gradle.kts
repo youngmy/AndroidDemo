@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.young.commonlibrary"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 24
@@ -21,12 +21,17 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
+
+    buildFeatures.compose = true
+    composeOptions.kotlinCompilerExtensionVersion = "1.4.2"
+
+
 }
 
 dependencies {
@@ -48,5 +53,23 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    api("com.google.code.gson:gson:2.10.1")
+
+    api("androidx.datastore:datastore-preferences:1.0.0")
+
+    api("com.google.accompanist:accompanist-insets:0.30.1")
+    api("com.google.accompanist:accompanist-placeholder-material:0.34.0")
+    api("com.google.accompanist:accompanist-systemuicontroller:0.34.0")
+    api("androidx.core:core-splashscreen:1.0.1")
+
+    api("androidx.navigation:navigation-compose:2.7.7")
+    api("com.google.accompanist:accompanist-navigation-animation:0.31.1-alpha")
+
+    api ("androidx.navigation:navigation-compose:2.7.7")
+    api("androidx.compose.material:material:1.6.8")
+
+//    api("org.apache.poi:poi:4.1.2")
+//    api("org.apache.poi:poi-ooxml:4.1.2")
 
 }
